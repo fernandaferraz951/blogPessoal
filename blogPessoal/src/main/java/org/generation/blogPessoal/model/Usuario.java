@@ -17,16 +17,18 @@ public class Usuario {
 	private long id; 
 	
 	@NotNull
-	@Size (min =2, max=100)
-	private String nome; 
-	
+	@Size(min = 2, max = 100)
+	private String nome;
+
 	@NotNull
-	@Size(min=5, max=100)
-	private String usuario; 
-	
+	@Size(min = 2, max = 100)
+	private String usuario;
+
 	@NotNull
-	@Size(min=6, max=50)
+	@Size(min = 5, max = 100)
 	private String senha;
+
+
 
 	public long getId() {
 		return id;
